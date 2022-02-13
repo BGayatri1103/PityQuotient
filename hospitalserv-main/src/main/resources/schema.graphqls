@@ -1,0 +1,42 @@
+type Query{
+    patientDetail(id : ID! , personal: Boolean!): PatientDetail
+    getPersonalDetail(id: ID!): PersonalDetail
+    getHealthDetail(id: ID!): HealthDetail
+    getDiagnosisDetail(id: ID!): Diagnosis
+}
+
+type PatientDetail{
+    id: ID!
+    personal: Boolean!
+    personalDetail: PersonalDetail
+    healthDetail: HealthDetail!
+    diagnosis: Diagnosis!
+}
+
+type PersonalDetail{
+    id: ID!
+    firstName: String!
+    middleName: String
+    lastName: String!
+    address: String!
+    phoneNumber: String!
+}
+
+type HealthDetail{
+    id: ID!
+    height: String!
+    weight: String!
+    bloodPressure: String!
+    temperature: String!
+    sugar: String!
+    cholesterol: String!
+}
+
+type Diagnosis{
+    id: ID!
+    DoctorName: String!
+    HospitalName: String!
+    referredHospital: String!
+    referredDoc: String!
+    doctorDiagnosis: [String!]!
+}
