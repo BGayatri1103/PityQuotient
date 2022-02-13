@@ -1,0 +1,312 @@
+
+/* navbar */
+#nav-bar {
+  background-color:#AFD275;
+  padding: 0 10px;
+}
+
+.logo {
+  padding-right: 8px;
+}
+
+.navbar .navbar-brand {
+  font-size: 2rem;
+  font-family: Ubuntu;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar .nav-item {
+  padding: 0 18px;
+}
+
+.navbar .nav-item .navlink {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.navbar .nav-item .navlink:hover {
+  color: #ddffcc;
+  text-decoration: none;
+}
+
+/* title */
+#title {
+  padding-bottom: 12%;
+}
+
+#title .heading {
+  margin-top: 5%;
+  font-size: 4rem;
+  width: 80%;
+  line-height: 1.25;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* download buttons */
+.but {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+  background: #AFD275;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border-style: none;
+}
+
+.but:hover {
+  background: #bee084;
+  text-decoration: none;
+}
+
+#title .under-nav {
+  margin: 5% 8%;
+}
+
+#title .column1 {
+  margin-top: 5%;
+}
+
+/* title image */
+.title-image {
+  margin: 0 30% 30% 0;
+  width:90%;
+  position: absolute;
+
+}
+
+/* features */
+#features {
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: #AFD275;
+  padding: 7%;
+  text-align: center;
+  line-height: 1;
+}
+
+#features h1{
+  color: white;
+  font-size: 5rem;
+  margin-bottom: 50px;
+}
+
+#features h3, #features p {
+  color: #AFD275;
+}
+
+#features .feature-pic {
+  width: 80px;
+  margin: 50px auto;
+}
+
+#features .pic1 {
+  margin-left: 14px;
+}
+
+
+.flip-card {
+  margin: 10px auto;
+  box-shadow: 2px 2px 5px;
+  background-color: transparent;
+  width: 18rem;
+  height: 18rem;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: white;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: white;
+  transform: rotateY(180deg);
+  margin: auto;
+}
+
+#features .back p {
+  text-align: left;
+  margin-top:100px;
+  width: 80%;
+}
+
+#features .back img{
+  width: 70px;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+/* about us */
+#aboutus {
+  text-align: left;
+  padding: 60px 60px 60px 30px;
+
+}
+
+#aboutus .aboutpic{
+  width: 95%;
+  margin-right: 0;
+}
+
+#aboutus p {
+  font-size: 1.15rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+#aboutus .purpose {
+  margin:auto;
+}
+
+.heading-abt {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 0 50px 50px;
+  color: #AFD275;
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+/* testimonials */
+ #testimonials {
+  background-image: url("images/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 70px;
+  margin: 0;
+}
+
+ #testimonials .bgimg {
+   background-color: black;
+   opacity: 0.85;
+   color: white;
+   height: 530px;
+   margin: auto;
+ }
+
+#testimonials .test-head {
+  width: 50%;
+  margin: 10%;
+  font-size: 3.5rem;
+}
+
+#testimonials .number {
+  text-decoration: underline;
+  text-underline-offset: 9px;
+  font-size: 3rem;
+}
+
+#testimonials p {
+  width: 80%;
+  margin: 50px 50px 50px 50px;
+  font-size: 1.5rem;
+}
+
+#testimonials h2 {
+  margin: 4%;
+}
+
+#testimonials .roww .row {
+  column-gap: 1px;
+}
+#testimonials .docimg {
+  margin-right: 20px;
+}
+
+.space {
+  height: 150px;
+}
+
+#footer {
+  color: white;
+  background-color: #AFD275;
+  padding: 3%;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+#footer .parag {
+  margin: 20px 0;
+  width: 80%;
+}
+
+#footer .copyrigh {
+  text-align: right;
+}
+
+#footer .copyrigh .cp2 {
+  margin-left: 40px;
+}
+
+#footer a {
+  color: white;
+}
+
+#footer a:hover {
+  color: #ddffcc;
+  text-decoration: none;
+}
+
+.fhealth {
+  font-size: 1.75rem;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: relative;
+    margin: 0;
+  }
+  #title .heading{
+    width: 100%;
+  }
+
+  #title {
+    text-align: center;
+    padding-bottom:0;
+  }
+
+  #title .but{
+    margin: 20px 0;
+  }
+
+#features {
+  margin-top: 0;
+}
+
+.flip-card h3 {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  vertical-align: middle;
+}
+
+#features .flip-card .pic4 {
+  margin-bottom: 20px;
+}

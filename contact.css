@@ -1,0 +1,101 @@
+/* navbar */
+#nav-bar {
+  background-color:#AFD275;
+  padding: 0 10px;
+}
+
+.logo {
+  padding-right: 8px;
+}
+
+.navbar .navbar-brand {
+  font-size: 2rem;
+  font-family: Ubuntu;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar .nav-item {
+  padding: 0 18px;
+}
+
+.navbar .nav-item .navlink {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.navbar .nav-item .navlink:hover {
+  color: #ddffcc;
+  text-decoration: none;
+}
+
+
+.contact{
+  font-size:3.3vw;
+  text-align: center;
+  margin-top: 3%;
+  font-weight: 700;
+}
+
+p{
+  text-align: center;
+  font-size: 1.7vw;
+}
+
+.row{
+  align-items: center;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+input[type=text] {
+  
+  width: 71%;
+  padding: 2% 2%;
+  margin-left: 20%;
+  border-radius: 5px;
+  background-color: #EAEAEA;
+  border: none;
+}
+
+input[type=text2] {
+  width: 71%;
+  margin-left: 20%;
+  padding: 2% 2%;
+  padding-bottom: 20%;
+  border-radius: 5px;
+  background-color: #EAEAEA;
+  border: none;
+}
+
+.btn{
+  width: 25%;
+  font-size: 2vw;
+  margin-left: 43%;
+  margin-top: 10%;
+  background-color: #AFD275;
+  padding: 1% 2%;
+  border: none;
+  border-radius: 2%;
+  cursor: pointer;
+  box-shadow: 3px 3px #888888;
+}
+
+.btn:hover {
+  background-color: #36863a;
+}
+
+
+
+
